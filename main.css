@@ -1,0 +1,30 @@
+.my-container {
+    border: solid 3px red;
+    background: blue
+}
+
+.header_black {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: black
+}
+
+.logo-spotify {
+    width: 100px;
+    height: auto;
+
+}
+
+.menu-spotify {
+    width: 30px;
+    height: auto;
+}
+
+.blue_Spotify {
+    background-color: #519cf0;
+    color: white;
+    padding: 50px;
+
+}

@@ -1,0 +1,18 @@
+/* Hace que el padding y border se incluyan dentro del ancho total del elemento*/
+* {
+    box-sizing: border-box;  
+}
+
+/*Para eliminar espacios predeterminados de los navegadores */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Para hacer las imágenes responsivas y que no se desborden del contenedor */
+
+img {
+    max-width: 100%;     
+    height: auto;
+}
+
