@@ -1,6 +1,5 @@
-.my-container {
-    border: solid 3px red;
-    background: blue
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 .header_black {
@@ -24,7 +23,53 @@
 
 .blue_Spotify {
     background-color: #519cf0;
+    display: block;
     color: white;
-    padding: 50px;
+    height: 50vh;
+    /*view height: 50% de la ventana del navegador */
+    padding: 30px;
+    padding-top: 100px;
+    line-height: 1.5;
+    font-size: 20px
+}
 
+.green_button {
+    background-color: rgb(36, 166, 36);
+    height: 15%;
+    width: 90%;
+    text-align: center; 
+    text-wrap: balan;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+.terms_conditions {
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.white_spotify_title {
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.logo-music {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100px;
+    height: auto;  
+    padding: 5px;
+
+}
+
+.text-music {
+    justify-content: center; 
+    align-items: center;
+    padding: 5px;
 }
