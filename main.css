@@ -37,8 +37,8 @@ body {
     background-color: rgb(36, 166, 36);
     height: 15%;
     width: 90%;
-    text-align: center; 
-    text-wrap: balan;  
+    text-align: center;
+    text-wrap: balan;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,16 +60,51 @@ body {
 
 .logo-music {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     width: 100px;
-    height: auto;  
+    height: auto;
     padding: 5px;
 
 }
 
 .text-music {
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     padding: 5px;
+}
+
+/*css footer*/
+
+.pie-de-pagina {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 40px 30px;
+}
+
+.legal-cookies {
+    display: flex;
+    gap: 30px;
+    padding: 30px 10px;
+
+}
+
+.info {
+    displey: flex;
+    padding: 20px;
+}
+
+.box-derecho {
+    display: flex-end;
+}
+
+.contenedor-nombre-imagen {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.imagen-bandera {
+    margin-left: 30px;
 }
