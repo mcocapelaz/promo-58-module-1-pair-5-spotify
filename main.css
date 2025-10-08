@@ -1,75 +1,143 @@
-body {
-    font-family: 'Roboto', sans-serif;
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+
+* {
+    font-family: "Roboto", sans-serif;
 }
 
 .header_black {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 1em 2em;
-    background-color: black
+    list-style: none;
+    padding: 0.5em 1em;
+    background-color: black;
 }
 
 .logo-spotify {
-    width: 100px;
-    height: auto;
-
+    display: inline;
+    height: 1.5em;
+    justify-content: flex-end;
 }
 
 .menu-spotify {
-    width: 30px;
+    display: inline;
+    width: 1.5em;
     height: auto;
+    justify-content: right;
 }
 
-.blue_Spotify {
+.hero {
     background-color: #519cf0;
-    display: block;
-    color: white;
-    height: 50vh;
-    /*view height: 50% de la ventana del navegador */
-    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+    min-height: 50vh;
+    padding: 20px;
     padding-top: 100px;
     line-height: 1.5;
-    font-size: 20px
+    font-size: 20px;
 }
 
 .green_button {
     background-color: rgb(36, 166, 36);
-    height: 15%;
-    width: 90%;
-    text-align: center; 
-    text-wrap: balan;  
+    height: 50px;
+    width: 45vh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px;
     border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .terms_conditions {
     font-size: 12px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
-.white_spotify_title {
-    text-align: center;
-    padding: 20px;
+/*  Sección: Beneficios */
 
-
-}
-
-.logo-music {
+.section_white {
     display: flex;
-    justify-content: center; 
-    align-items: center;
-    width: 100px;
-    height: auto;  
-    padding: 5px;
-
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1.25em;
 }
 
-.text-music {
-    justify-content: center; 
-    align-items: center;
-    padding: 5px;
+.section_white_title {
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 1.25em;
 }
+
+.benefit {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 1.25em;
+    padding-right: 1.25em;
+}
+
+.benefit_img {
+    width: 6.25em;
+    height: auto;
+    margin-right: 1.25em;
+}
+
+.benefit_title {
+    font-weight: bold;
+    font-size: 1.25em;
+    margin-bottom: 1em;
+}
+
+.benefit_text {
+    font-size: 1em;
+}
+
+.pie-de-pagina {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 40px 30px;
+    font-size: 0.7rem;
+}
+
+.legal-cookies {
+    display: flex;
+    gap: 30px;
+    padding: 30px 10px;
+}
+
+.info {
+    display: flex;
+    padding: 20px;
+}
+
+.box-derecho {
+    display: flex-end;
+}
+
+.contenedor-nombre-imagen {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;   
+    
+}
+
+.imagen-bandera {
+    margin-left: 30px;
+    width: 2rem;
+}
+

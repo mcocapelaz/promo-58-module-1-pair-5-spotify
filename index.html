@@ -3,80 +3,106 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
         <title>Spotify</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="main.css">
-
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-            rel="stylesheet">
     </head>
     <body>
         <header class="header_black">
             <div class="logo">
-                <img src="html-spotify/images/logo.png" alt="Logo de Spotify"
+                <img src="/images/logo.png" alt="Logo de Spotify"
                     class="logo-spotify">
             </div>
             <nav class="menu">
-                <img src="html-spotify/images/menu-icon.png"
+                <img src="/images/menu-icon.png"
                     alt="Menú de navegación Spotify" class="menu-spotify">
             </nav>
         </header>
-
         <main>
-            <section class="blue_Spotify">
-
+            <section class="hero">
                 <h1>Prueba Premium gratis 3 meses</h1>
-                <h4>
-                    <p>Escucha millones de canciones sin anuncios, a la carta y
-                        sin conexión.</p>
-                </h4>
-
-                <!-- Para el botón verde de "Ver planes" -->
-
+                <p>Escucha millones de canciones sin anuncios, a la carta y
+                    sin conexión.</p>
                 <div class="green_button">
-                    <h6>VER PLANES</h6>
+                    <p>VER PLANES</p>
                 </div>
-
                 <div class="terms_conditions">
-                Rigen términos y condiciones. Los tres meses gratis no están
+                    Rigen términos y condiciones. Los tres meses gratis no están
                     disponibles para usuarios que ya hayan probado Premium.
+                </div>
+            </section>
+
+            <!-- Trabajar a partir de aquí  -->
+
+            <div class="section_white">
+                <div class="section_white_title">¿Por qué pasarte a
+                    Premium?</div>
+
+                <article class="benefit">
+                    <img class="benefit_img" src="/images/benefit-1.png"
+                        alt="Descarga música" />
+                    <div class="benefit_title_text">
+                        <div class="benefit_title">Descarga música.</div>
+                        <p class="benefit_text">Llévala siempre contigo</p>
                     </div>
-            </section>
+                </article>
 
-            <section class="white_spotify">
-                <div class="white_spotify_title">
-            <h2>¿Por qué pasarte a Premium?</h2>
+                <article class="benefit">
+                    <img class="benefit_img" src="/images/benefit-2.png"
+                        alt="Sin anuncios" />
+                    <div class="benefit_title_text">
+                        <div class="benefit_title">Sin anuncios.</div>
+                        <p class="benefit_text">Disfruta de música sin
+                            interrupciones</p>
+                    </div>
+                </article>
+
+                <article class="benefit">
+                    <img class="benefit_img" src="/images/benefit-3.png"
+                        alt="Escucha lo que quieras" />
+                    <div class="benefit_title_text">
+                        <div class="benefit_title">Escucha lo que quieras.</div>
+                        <p class="benefit_text">Incluso en el móvil</p>
+                    </div>
+                </article>
+
+                <article class="benefit">
+                    <img class="benefit_img" src="/images/benefit-4.png"
+                        alt="Salta todas las canciones que quieras" />
+                    <div class="benefit_title_text">
+                        <div class="benefit_title">Salta todas las canciones que
+                            quieras.</div>
+                        <p class="benefit_text">Simplemente dale a
+                            siguiente</p>
+                    </div>
+                </article>
             </div>
-            <table class="white_premium_spotify">
-                
- 
-      <h3>Descarga música</h3>
-      <h4>Llévala siempre contigo</h4>
-    </td>
-  </tr>
-
-
-            <td><h3>Sin anuncios</h3>
-            <h4>Disfruta de música sin interrupciones</h4>
-
-            <h3>Escucha lo que quieras</h3>
-            <h4>Incluso en el móvil</h4>
-
-            <h3>Salta todas las canciones que quieras</h3>
-            <h4>Simplemente dale a siguiente</h4>
-            </table>
-            </section>
         </main>
+         <footer class="pie-de-pagina">
+        <nav>
+            <div class="legal-cookies">
+                <a>Legal</a>
+                <a>Cookies</a>
+            </div>
+            <div class="info">
+                <span>Información sobre los anuncios</span>
+            </div>
+        </nav>
+        <div class="box-derecho">
+            <div class="contenedor-nombre-imagen">
+                <p class="nombre-pais">España</p>
+                <img src="images/es.svg" alt="Bandera de españa" class="imagen-bandera">
+            </div>
+            <span class="copy">© 2019 Spotify, AB</span>
+        </div>
 
-        <footer>
-            <h5>Legal
-                Cookies
-                Información sobre los anuncios
-
-                España
-                © 2019 Spotify, AB</h5>
-        </footer>
-
+    </footer>
+</body>
+</html>
     </body>
 </html>
